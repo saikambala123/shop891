@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" fill="none" role="img" aria-label="ShopVerse logo">
+  <defs>
+    <linearGradient id="sv-tile" x1="10" y1="90" x2="88" y2="6" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#047857"/>
+      <stop offset="0.5" stop-color="#10B981"/>
+      <stop offset="1" stop-color="#5EEAD4"/>
+    </linearGradient>
+    <linearGradient id="sv-glint" x1="18" y1="6" x2="78" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="sv-bag" x1="48" y1="38" x2="48" y2="79" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#ECFDF7"/>
+    </linearGradient>
+    <radialGradient id="sv-glow" cx="0.72" cy="0.18" r="0.9">
+      <stop stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="0.55" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- rounded gradient tile -->
+  <rect x="5" y="5" width="86" height="86" rx="26" fill="url(#sv-tile)"/>
+  <rect x="5" y="5" width="86" height="86" rx="26" fill="url(#sv-glow)"/>
+  <rect x="5" y="5" width="86" height="86" rx="26" fill="url(#sv-glint)"/>
+
+  <!-- orbit ring — back half (passes behind the bag) -->
+  <path
+    d="M16.28 60.09 A33 12.5 -16 0 1 79.72 41.91"
+    stroke="#ffffff"
+    stroke-opacity="0.45"
+    stroke-width="3.4"
+    stroke-linecap="round"
+    fill="none"
+  />
+
+  <!-- shopping bag body -->
+  <path
+    d="M31.8 40h32.4l-3.3 31.5a6.8 6.8 0 0 1-6.75 6H41.85a6.8 6.8 0 0 1-6.75-6L31.8 40Z"
+    fill="url(#sv-bag)"
+  />
+  <!-- bag handle -->
+  <path
+    d="M40 40v-5.6a8 8 0 0 1 16 0V40"
+    stroke="#ffffff"
+    stroke-width="5.6"
+    stroke-linecap="round"
+    fill="none"
+  />
+
+  <!-- orbit ring — front half (passes in front of the bag) -->
+  <path
+    d="M79.72 41.91 A33 12.5 -16 0 1 16.28 60.09"
+    stroke="#ffffff"
+    stroke-opacity="0.92"
+    stroke-width="3.8"
+    stroke-linecap="round"
+    fill="none"
+  />
+  <!-- planet dot riding the orbit -->
+  <circle cx="72.9" cy="53.1" r="3.4" fill="#ffffff"/>
+  <circle cx="72.9" cy="53.1" r="1.4" fill="#10B981"/>
+
+  <!-- sparkle star -->
+  <path
+    d="M67 18.5c.7 3.6 1.9 4.8 5.5 5.5-3.6.7-4.8 1.9-5.5 5.5-.7-3.6-1.9-4.8-5.5-5.5 3.6-.7 4.8-1.9 5.5-5.5Z"
+    fill="#ffffff"
+  />
+</svg>
